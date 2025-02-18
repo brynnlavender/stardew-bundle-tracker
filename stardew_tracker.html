@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../styles/stardew_tracker.css">
+    <script src="../scripts/stardew_tracker.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h2 id="light_dark">&#x2600;</h2>
+        <h1><a href="../stardew_tracker.html">Stardew Valley Bundle Tracker</a></h1>
+        <h2 id="log_in"><a href="#">Login</a></h2>
+    </div>
+    <div class="main">
+        
+        <div id="spring" class="button">
+            <img src="../images/spring_button_off.jpeg" alt="spring">
+        </div>
+        <div id="summer" class="button">
+            <img src="../images/summer_button_off.jpeg" alt="summer">
+        </div>
+        <div id="fall" class="button">
+            <img src="../images/fall_button_off.jpeg" alt="fall">
+        </div>
+        <div id="winter" class="button">
+            <img src="../images/winter_button_off.jpeg" alt="winter">
+        </div> 
+        <div id="misc" class="button">
+            <img src="../images/misc_button_off.jpeg" alt="misc">
+        </div>
+    
+        
+
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon>
+            </span>
+
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox">Remember me</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+
+
+
+
+
+        <div class="checklists">
+            <a id="back_arrow" class="checklist_hidden" href="../images/icon_original.png"></a>
+
+            <div id="spring_checklist" class="checklist_hidden">
+                <div id="scroll_container" class="spring_table">
+                    <table id="spring_table"></table>
+                </div>
+            </div>
+            <div id="summer_checklist" class="checklist_hidden">
+                <div id="scroll_container" class="summer_table">
+                    <table id="summer_table"></table>
+                </div>
+            </div>
+            <div id="fall_checklist" class="checklist_hidden">
+                <div id="scroll_container" class="fall_table">
+                    <table id="fall_table"></table>
+                </div>
+            </div>
+            <div id="winter_checklist" class="checklist_hidden">
+                <div id="scroll_container" class="winter_table">
+                    <table id="winter_table"></table>
+                </div>
+            </div>
+            <div id="misc_checklist" class="checklist_hidden">
+                <div id="scroll_container" class="misc_table">
+                    <table id="misc_table"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>?</h3>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
