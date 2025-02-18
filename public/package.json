@@ -1,19 +1,21 @@
 {
-  "name": "stardew-project",
+  "name": "stardew-bundle-tracker",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "THIS IS A WORK IN PROGRESS!!! A tracking and checklist application to assist players in organizing and completing in-game bundles. The app allows users to sort items by season, access additional details for items with specific conditions (e.g., time or weather), and track progress with a checklist to streamline item collection and prevent oversight.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brynnlavender/stardew-bundle-tracker.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.4",
-    "multer": "^1.4.5-lts.1"
-  }
+  "bugs": {
+    "url": "https://github.com/brynnlavender/stardew-bundle-tracker/issues"
+  },
+  "homepage": "https://github.com/brynnlavender/stardew-bundle-tracker#readme"
 }

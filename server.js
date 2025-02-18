@@ -59,6 +59,19 @@ app.put("/items/:id", async (req, res) => {
     res.json(item);
 });
 
+app.delete("/items", async (req, res) => {
+    const season = req.query.season;
+    let items;
+
+    if (season) {
+        items = await Item.deleteMany({ season: season });
+    } else {
+        items = await Item.deleteMany({});
+    }
+
+    res.json(items);
+});
+
 app.delete("/items/:id", async (req, res) => {
     const item = await Item.findByIdAndDelete(req.params.id);
     res.json(item);
