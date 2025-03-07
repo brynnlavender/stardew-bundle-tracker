@@ -20,7 +20,7 @@ function changeImageOnHover(imgElement, newSrc, newWidth, newHeight) {
 
 document.querySelectorAll('.main img').forEach(img => {
     const season = img.alt;
-    const newSrc = `../images/${season}_button_on.png`;
+    const newSrc = `images/${season}_button_on.png`;
     changeImageOnHover(img, newSrc, 175, 175);
 });
 

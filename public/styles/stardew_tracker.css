@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('../images/stardew\ day\ 1920x1080.png');
+    background-image: url('images/stardew\ day\ 1920x1080.png');
     background-size: cover;
     background-attachment: fixed;
     display: block;
